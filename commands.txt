@@ -1,0 +1,22 @@
+npm i @aws-cdk/aws-lambda @aws-cdk/aws-dynamodb @aws-cdk/aws-apigateway
+
+Initializing typescript project
+npm init -y
+
+Install packages for typescript
+npm i typescript@5.1.3 ts-node jest ts-jest @types/node @types/jest --save-dev
+
+npm i @aws-sdk/client-dynamodb
+
+
+--ver tablas
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+To test all files in test folder
+npx jest
+
+to test an especific file
+npx jest .\test\especificFile.ts
+
+
+npx jest --coverage
